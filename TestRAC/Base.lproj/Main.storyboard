@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touxiang" translatesAutoresizingMaskIntoConstraints="NO" id="kre-hQ-AfR">
+                                <rect key="frame" x="147.5" y="65" width="80" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="00g-ps-MEt"/>
+                                    <constraint firstAttribute="height" constant="80" id="mOO-PL-o4k"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="40"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="账号" textAlignment="natural" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="TDN-fb-5Oy">
+                                <rect key="frame" x="62" y="175" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="A9H-Lb-7Om"/>
+                                    <constraint firstAttribute="height" constant="30" id="AT3-IX-66c"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="密码" textAlignment="natural" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="VaI-p7-mk3">
+                                <rect key="frame" x="62" y="224" width="250" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="j9K-Ce-1e9"/>
+                                    <constraint firstAttribute="height" constant="30" id="xok-Jh-dcx"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lf9-OP-fW8">
+                                <rect key="frame" x="135" y="296" width="105" height="40"/>
+                                <color key="backgroundColor" red="0.74098406979999998" green="1" blue="0.7025805302" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="38l-hR-7q2"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="105" id="cdh-E8-3t7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="登录">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="状态" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zc3-I4-UA0">
+                                <rect key="frame" x="95" y="352" width="185" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="185" id="K4D-jt-1yn"/>
+                                    <constraint firstAttribute="height" constant="25" id="veh-1k-rUx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.98652871823443822" green="0.9533687890043816" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1N-sW-SE8">
+                                <rect key="frame" x="305" y="637" width="70" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="YaC-y3-Jx2"/>
+                                    <constraint firstAttribute="height" constant="30" id="yiP-Us-Vre"/>
+                                </constraints>
+                                <state key="normal" title="基础学习"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TDN-fb-5Oy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Rf-YF-6wx"/>
+                            <constraint firstItem="Zc3-I4-UA0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FJN-Kn-JGR"/>
+                            <constraint firstItem="Lf9-OP-fW8" firstAttribute="top" secondItem="VaI-p7-mk3" secondAttribute="bottom" constant="42" id="HDU-sW-Hgg"/>
+                            <constraint firstItem="VaI-p7-mk3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HXv-Lz-xTf"/>
+                            <constraint firstItem="G1N-sW-SE8" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="HdV-hY-Ixu"/>
+                            <constraint firstItem="Zc3-I4-UA0" firstAttribute="top" secondItem="Lf9-OP-fW8" secondAttribute="bottom" constant="16" id="J9f-s1-1jB"/>
+                            <constraint firstItem="G1N-sW-SE8" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="SAv-Fr-X3d"/>
+                            <constraint firstItem="Zc3-I4-UA0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SYZ-rh-mIS"/>
+                            <constraint firstItem="Lf9-OP-fW8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z9h-9u-1LQ"/>
+                            <constraint firstItem="kre-hQ-AfR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="45" id="ZgA-ez-Zio"/>
+                            <constraint firstItem="TDN-fb-5Oy" firstAttribute="top" secondItem="kre-hQ-AfR" secondAttribute="bottom" constant="30" id="beO-lt-cP1"/>
+                            <constraint firstItem="Lf9-OP-fW8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fXA-cS-Gjj"/>
+                            <constraint firstItem="kre-hQ-AfR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h2F-Pg-teC"/>
+                            <constraint firstItem="TDN-fb-5Oy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hgk-8j-4KO"/>
+                            <constraint firstItem="VaI-p7-mk3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rhb-97-DWv"/>
+                            <constraint firstItem="VaI-p7-mk3" firstAttribute="top" secondItem="TDN-fb-5Oy" secondAttribute="bottom" constant="19" id="ynh-pe-YyH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="accountTF" destination="TDN-fb-5Oy" id="wBB-h9-AYG"/>
+                        <outlet property="imgV" destination="kre-hQ-AfR" id="k9s-IA-1h9"/>
+                        <outlet property="loginBtn" destination="Lf9-OP-fW8" id="P7s-yt-CEm"/>
+                        <outlet property="otherBtn" destination="G1N-sW-SE8" id="9xE-Ba-C9Z"/>
+                        <outlet property="passwordTF" destination="VaI-p7-mk3" id="8dN-VR-fBf"/>
+                        <outlet property="stateLabel" destination="Zc3-I4-UA0" id="qNB-pQ-fXK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="touxiang" width="73" height="73"/>
+    </resources>
+</document>
