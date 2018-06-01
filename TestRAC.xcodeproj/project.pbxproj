@@ -13,6 +13,8 @@
 		2127E3E120B5010C000FFAB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2127E3E020B5010C000FFAB8 /* Assets.xcassets */; };
 		2127E3E420B5010C000FFAB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2127E3E220B5010C000FFAB8 /* LaunchScreen.storyboard */; };
 		2127E3E720B5010C000FFAB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2127E3E620B5010C000FFAB8 /* main.m */; };
+		212ABD4520C11697005BC80E /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 212ABD4320C11697005BC80E /* TwoViewController.m */; };
+		212ABD4920C11771005BC80E /* TwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 212ABD4820C11771005BC80E /* TwoViewController.xib */; };
 		6DD7268190C659C865054022 /* libPods-TestRAC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2AE3DF8CB3B56674AC08C8 /* libPods-TestRAC.a */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,9 @@
 		2127E3E320B5010C000FFAB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2127E3E520B5010C000FFAB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2127E3E620B5010C000FFAB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		212ABD4320C11697005BC80E /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		212ABD4420C11697005BC80E /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		212ABD4820C11771005BC80E /* TwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoViewController.xib; sourceTree = "<group>"; };
 		B590715A80D4D1AE4C4C461B /* Pods-TestRAC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestRAC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestRAC/Pods-TestRAC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +74,9 @@
 				2127E3D820B5010C000FFAB8 /* AppDelegate.m */,
 				2127E3DA20B5010C000FFAB8 /* ViewController.h */,
 				2127E3DB20B5010C000FFAB8 /* ViewController.m */,
+				212ABD4420C11697005BC80E /* TwoViewController.h */,
+				212ABD4320C11697005BC80E /* TwoViewController.m */,
+				212ABD4820C11771005BC80E /* TwoViewController.xib */,
 				2127E3DD20B5010C000FFAB8 /* Main.storyboard */,
 				2127E3E020B5010C000FFAB8 /* Assets.xcassets */,
 				2127E3E220B5010C000FFAB8 /* LaunchScreen.storyboard */,
@@ -157,6 +165,7 @@
 				2127E3E420B5010C000FFAB8 /* LaunchScreen.storyboard in Resources */,
 				2127E3E120B5010C000FFAB8 /* Assets.xcassets in Resources */,
 				2127E3DF20B5010C000FFAB8 /* Main.storyboard in Resources */,
+				212ABD4920C11771005BC80E /* TwoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +200,7 @@
 				2127E3DC20B5010C000FFAB8 /* ViewController.m in Sources */,
 				2127E3E720B5010C000FFAB8 /* main.m in Sources */,
 				2127E3D920B5010C000FFAB8 /* AppDelegate.m in Sources */,
+				212ABD4520C11697005BC80E /* TwoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
