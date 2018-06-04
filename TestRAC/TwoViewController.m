@@ -17,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *passwordTF;
 @property (weak, nonatomic) IBOutlet UIButton *resetBtn;
 
+@property (weak, nonatomic) IBOutlet UIButton *tableBtn;
 
 
 

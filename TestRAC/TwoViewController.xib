@@ -17,6 +17,7 @@
                 <outlet property="imgV" destination="TuU-uE-71R" id="yPx-jU-2AZ"/>
                 <outlet property="passwordTF" destination="EpF-Gb-sDX" id="gYf-mJ-rTD"/>
                 <outlet property="resetBtn" destination="VUL-Gq-3ez" id="z5Q-EY-FPI"/>
+                <outlet property="tableBtn" destination="UPJ-3K-cZh" id="jos-Pv-TP6"/>
                 <outlet property="view" destination="iN0-l3-epB" id="knd-JY-FGs"/>
             </connections>
         </placeholder>
@@ -87,9 +88,18 @@
                         <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                     </userDefinedRuntimeAttributes>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPJ-3K-cZh">
+                    <rect key="frame" x="288" y="637" width="87" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="87" id="DZt-4Q-V9g"/>
+                        <constraint firstAttribute="height" constant="30" id="UeH-pU-di9"/>
+                    </constraints>
+                    <state key="normal" title="tableView"/>
+                </button>
             </subviews>
             <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="UPJ-3K-cZh" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="0i0-Di-8Ru"/>
                 <constraint firstItem="TuU-uE-71R" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4f5-Nw-TFl"/>
                 <constraint firstItem="VUL-Gq-3ez" firstAttribute="top" secondItem="EpF-Gb-sDX" secondAttribute="bottom" constant="55" id="DHR-PB-Hes"/>
                 <constraint firstItem="MJ5-U2-GOL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ii5-Jm-fjM"/>
@@ -97,11 +107,13 @@
                 <constraint firstItem="EpF-Gb-sDX" firstAttribute="top" secondItem="MJ5-U2-GOL" secondAttribute="bottom" constant="31" id="ODT-va-YgI"/>
                 <constraint firstItem="TuU-uE-71R" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="54" id="Yed-hZ-Q29"/>
                 <constraint firstItem="MJ5-U2-GOL" firstAttribute="top" secondItem="TuU-uE-71R" secondAttribute="bottom" constant="55" id="c3S-Fh-wCo"/>
+                <constraint firstItem="UPJ-3K-cZh" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="p0h-dW-w8R"/>
                 <constraint firstItem="PxF-EV-sYg" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="r7R-J0-XSO"/>
                 <constraint firstItem="EpF-Gb-sDX" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="r8A-Wi-B9J"/>
                 <constraint firstItem="PxF-EV-sYg" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="vev-LT-Ecn"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
         </view>
     </objects>
     <resources>
